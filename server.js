@@ -1,0 +1,12 @@
+// DEPENDENCIES
+// express
+
+// DATA
+
+// APP / PORT
+
+// MIDDLEWARES
+
+// ROUTES 
+
+// START SERVER
