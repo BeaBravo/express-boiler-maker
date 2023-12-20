@@ -9,6 +9,10 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 // MIDDLEWARES
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+//static
+app.use(express.static("public"));
 
 // ROUTES
 
